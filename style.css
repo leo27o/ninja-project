@@ -1,0 +1,135 @@
+.carre{
+    height: 200px;
+    width: 200px;
+}
+
+.blue{
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.red{
+    background-color: red;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    width: 600px;
+    border-radius: 30px;
+}
+
+/* button{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+} */
+
+.drapeaux{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.france{
+    font-weight: lighter;
+    color: black;
+    
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  
+}
+
+a:hover {
+    background-color: white;
+    color: red;
+}
+
+#containerCards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+#card{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #ffa801;
+}
+
+#containerImg{
+    border: solid 2px black;
+    height: 110%;
+    width: 100%;
+}
+
+#img{
+    width: 300px;
+    height: 200px;
+}
+
+#contentWrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#form{
+    padding: 25px;
+    background-color: #ff3f34;
+    border-radius: 5px;
+    color: white;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    max-height: 425px;
+}
+
+#button{
+    color: white;
+    background-color: black;
+}
+
+#containerInfos{
+    width: 100%;
+    border:solid black 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: -8px;
+}
+
