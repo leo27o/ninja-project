@@ -88,7 +88,7 @@ const displayNinjas = () => {
             card.style.height = "450px";
             img.style.width = "300px";
             img.style.height = "200px";
-            card.style.margin = "0px"
+            card.style.margin = "10px"
         })
 
     }

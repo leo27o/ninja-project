@@ -30,12 +30,15 @@
     border-radius: 30px;
 } */
 
-.drapeaux{
+.navBar{
     font-weight: bold;
     color: white;
     display: flex;
     background-color: black;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 100px;
+    position: sticky;
+    top: 0;
 }
 
 .france{
@@ -53,11 +56,11 @@ a{
     color: white;
   
 }
-
+/* 
 a:hover {
     background-color: white;
     color: red;
-}
+} */
 
 #containerCards{
     width: 80%;
@@ -115,6 +118,8 @@ input{
     flex-direction: column;
     margin: 10px;
     max-height: 425px;
+    position: sticky;
+    top: 105px;
 }
 
 #button{
@@ -133,3 +138,31 @@ input{
     margin-top: -8px;
 }
 
+#logo{
+    height: 60px;
+}
+
+.contentLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 100px;
+}
+
+.links{
+    font-size: 25px;
+}
+
+.drapeau{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links:hover{
+    color: #ffa801;
+    font-size: 30px;
+    margin: -9px;
+}
