@@ -135,4 +135,9 @@ const displayNinjas = () => {
 
  displayNinjas();
 
- 
+ const date = new Date();
+
+ const polux = document.getElementById("date");
+ polux.innerHTML = (date.getFullYear());
+
+// console.log(date.getFullYear());

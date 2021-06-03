@@ -49,6 +49,10 @@
 
 body{
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a{
@@ -165,4 +169,13 @@ input{
     color: #ffa801;
     font-size: 30px;
     margin: -9px;
+}
+
+.footeur{
+    background-color: rgb(177, 173, 173);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
 }
